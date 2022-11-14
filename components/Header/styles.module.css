@@ -1,0 +1,63 @@
+.Header {
+  @apply bg-black h-20 w-full fixed border border-white z-20 border-l-0 border-r-0 border-t-0;
+  @apply flex flex-row justify-between;
+}
+
+.Header__leftContainer {
+  @apply flex flex-row justify-start items-center pl-8;
+}
+
+.Header__leftContainerItem {
+  @apply w-10 h-10 ml-4;
+}
+.Header__rightContainer {
+  @apply flex flex-row justify-between items-center list-none pr-8;
+}
+
+.Header__rightContainerItem {
+  @apply text-white mr-4 text-xl cursor-pointer;
+}
+
+.Nav__itemActive {
+  @apply text-blue-800;
+}
+
+.Header__rightContainerItem:hover {
+  @apply text-blue-800 mr-4 text-xl transition-all;
+}
+
+.Header__desktopMenu {
+  @apply hidden lg:flex;
+}
+
+.showMenuNav {
+  @apply absolute w-full h-[100vh] top-0 left-0 bg-black z-10 flex flex-col justify-evenly items-center;
+}
+
+.hideMenuNav {
+  @apply hidden;
+}
+
+.Header__mobileMenu {
+  @apply flex lg:hidden;
+}
+
+.Header__hamburger {
+  @apply space-y-2 mr-4;
+}
+
+.Header__hamburgerLine {
+  @apply block h-0.5 w-8 bg-white;
+}
+
+.Header__cross {
+  @apply absolute top-0 right-0 px-8 py-8;
+}
+
+.Header__hamburgerMenu {
+  @apply flex flex-col items-center justify-between min-h-[250px] z-50;
+}
+
+.Header__hamburgerMenu a {
+  @apply text-white;
+}
