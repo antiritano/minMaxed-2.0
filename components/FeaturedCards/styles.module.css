@@ -1,9 +1,9 @@
 .FeaturedCards__wrapper {
-  @apply px-56;
+  @apply px-56 bg-gray-100;
 }
 
 .FeaturedCards__cardsWrapper {
-  @apply flex lg:flex-row flex-col justify-between items-center pt-12;
+  @apply flex lg:flex-row flex-col justify-between items-center py-12;
 }
 
 .FeaturedCards__title {
