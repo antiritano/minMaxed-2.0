@@ -1,15 +1,15 @@
-import styles from "./styles.module.css";
-import { useState } from "react";
+import styles from './styles.module.css';
+import { useState } from 'react';
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const location = "/";
+  const location = '/';
   return (
     <div className={styles.Header}>
       <div className={styles.Header__leftContainer}>
         <a href="/">
-          <h1 className="text-blue-800 text-2xl">
-            <span className="text-white text-2xl">min</span>Maxed
+          <h1 className="text-blue-800 text-4xl">
+            <span className="text-white text-4xl">min</span>Maxed
           </h1>
         </a>
       </div>
@@ -28,7 +28,7 @@ const Header = () => {
             <div
               className={isNavOpen ? styles.showMenuNav : styles.hideMenuNav}
             >
-              {" "}
+              {' '}
               <div
                 className={styles.Header__cross}
                 onClick={() => setIsNavOpen(false)}
@@ -70,7 +70,7 @@ const Header = () => {
             <li className={styles.Header__rightContainerItem}>
               <a
                 className={
-                  location.pathname === "/"
+                  location.pathname === '/'
                     ? styles.Nav__itemActive
                     : styles.Nav__item
                 }
@@ -82,7 +82,7 @@ const Header = () => {
             <li className={styles.Header__rightContainerItem}>
               <a
                 className={
-                  location.pathname === "/reviews"
+                  location.pathname === '/reviews'
                     ? styles.Nav__itemActive
                     : styles.Nav__item
                 }
@@ -94,7 +94,7 @@ const Header = () => {
             <li className={styles.Header__rightContainerItem}>
               <a
                 className={
-                  location.pathname === "/articles"
+                  location.pathname === '/articles'
                     ? styles.Nav__itemActive
                     : styles.Nav__item
                 }
@@ -106,7 +106,7 @@ const Header = () => {
             <li className={styles.Header__rightContainerItem}>
               <a
                 className={
-                  location.pathname === "/about"
+                  location.pathname === '/about'
                     ? styles.Nav__itemActive
                     : styles.Nav__item
                 }
@@ -118,7 +118,7 @@ const Header = () => {
             <li className={styles.Header__rightContainerItem}>
               <a
                 className={
-                  location.pathname === "/contact"
+                  location.pathname === '/contact'
                     ? styles.Nav__itemActive
                     : styles.Nav__item
                 }

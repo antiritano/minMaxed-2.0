@@ -1,5 +1,5 @@
 .Header {
-  @apply bg-black h-20 w-full fixed border border-white z-20 border-l-0 border-r-0 border-t-0;
+  @apply bg-black h-20 w-full  border border-white z-20 border-l-0 border-r-0 border-t-0;
   @apply flex flex-row justify-between;
 }
 
