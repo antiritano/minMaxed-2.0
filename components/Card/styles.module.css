@@ -1,0 +1,14 @@
+.Card__wrapper {
+}
+
+.Card__image {
+  @apply max-h-[400px] w-full object-cover;
+}
+
+.Card__title {
+  @apply text-2xl font-bold;
+}
+
+.Card__byline {
+  @apply text-gray-500 flex flex-row justify-between;
+}

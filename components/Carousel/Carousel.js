@@ -17,7 +17,7 @@ const Carousel = () => {
       step={1}
       infinite={true}
     >
-      <div className="js-flickity  ">
+      <div className="js-flickity xl:pl-24">
         <Slider>
           <Slide index={0}>
             <div className="mx-auto hero_container">
@@ -70,7 +70,7 @@ const Carousel = () => {
         <ButtonBack
           role="button"
           aria-label="slide backward"
-          className="w-6 h-6 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute left-[40%] top-[70%] lg:ml-8 -ml-4  cursor-pointer z-30"
+          className="w-6 h-6 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute left-[0%] top-[50%] lg:ml-8 -ml-4  cursor-pointer z-30"
           id="prev"
         >
           <svg
@@ -92,7 +92,7 @@ const Carousel = () => {
         <ButtonNext
           role="button"
           aria-label="slide forward"
-          className="w-6 h-6 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute right-[40%] top-[70%] lg:mr-8 -mr-4 "
+          className="w-6 h-6 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute right-[0%] top-[50%] lg:mr-8 -mr-4 "
           id="next"
         >
           <svg

@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import Header from '../components/Header/Header';
 import Carousel from '../components/Carousel/Carousel';
 import Footer from '../components/Footer/Footer';
+import FeaturedCards from '../components/FeaturedCards/FeaturedCards';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Header />
       <main>
         <Carousel />
+        <FeaturedCards title="Featued Articles" />
       </main>
       <Footer />
     </div>
