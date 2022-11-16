@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Header from '../components/Header/Header';
 import Carousel from '../components/Carousel/Carousel';
+import Footer from '../components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -19,9 +20,10 @@ export default function Home() {
         ></link>
       </Head>
       <Header />
-      <div>
+      <main>
         <Carousel />
-      </div>
+      </main>
+      <Footer />
     </div>
   );
 }
